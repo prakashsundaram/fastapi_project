@@ -1,10 +1,10 @@
 from fastapi import APIRouter, Depends
-from app.Booking import database
-from app.Booking.database import get_db
+from app.booking import database
+from app.booking.database import get_db
 from fastapi import APIRouter, status
-from app.Booking import schemas, models
+from app.booking import schemas, models
 from sqlalchemy.orm import Session
-from app.Booking.repository import user
+from app.booking.repository import user
 
 get_db= database.get_db
 
