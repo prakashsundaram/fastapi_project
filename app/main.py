@@ -1,7 +1,7 @@
 from fastapi import FastAPI
-from app.booking import models
-from .booking.database import engine
-from .booking.routers import user
+from Booking import models
+from .Booking.database import engine
+from .Booking.routers import user
 
 app = FastAPI()
 
